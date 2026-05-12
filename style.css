@@ -301,7 +301,7 @@ section {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px 24px;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: all .5s ease;
 }
 
@@ -375,7 +375,7 @@ section {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px 24px;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: all .5s ease;
 }
 
@@ -628,6 +628,12 @@ footer {
 
 /* mobile */
 @media (max-width: 420px) {
+    /* navbar */
+    .navbar {
+        padding: 16px 16px;
+    }
+
+    
     /* sections */
     section {
         padding: 40px 0;
