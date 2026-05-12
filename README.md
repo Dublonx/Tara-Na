@@ -21,7 +21,11 @@ A Philippines-themed travel website built to inspire wanderers and adventure to 
 
 ## Screenshots
 
-![Screenshots](Assets/Screenshots/desktop.png)
+[Desktop](Assets/Screenshots/desktop.png)
+
+[Tablet](Assets/Screenshots/tablet.png)
+
+[Mobile](Assets/Screenshots/mobile.png)
 
 ## Author
 
