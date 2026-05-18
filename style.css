@@ -24,7 +24,7 @@ body {
     --c-button: hsl(206, 97%, 41%);
     --c-button-h: hsl(206, 97%, 31%);
     --c-button-text: hsl(60, 100%, 100%);
-    --c-navbar: rgba(0, 0, 0, 0.5);
+    --c-navbar: rgba(0, 0, 0, 0.8);
     /* fonts */
     --ff-headline: "Roboto", sans-serif;
     --ff-paragraph: "Poppins", sans-serif;
@@ -60,6 +60,7 @@ body {
     padding: 16px 24px;
     margin: 1.5rem auto;
     background-color: var(--c-navbar);
+    border-radius: 1rem;
 }
 
 .navbar-logo {
@@ -633,7 +634,28 @@ footer {
     .navbar {
         padding: 16px 16px;
     }
-
+    
+    .navbar-logo img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .navbar-logo p {
+        font-size: var(--sz-tagline);
+    }
+    
+    .navbar-menu #menu {
+        font-size: var(--sz-paragraph);
+    }
+    
+    /* for all buttons */
+    .navbar-cta .n-cta,
+    .hero-cta .cta,
+    .about-cta .a-cta,
+    .card .c-cta,
+    .right-grp .cn-cta {
+        font-size: var(--sz-paragraph-s);
+    }
     
     /* sections */
     section {
@@ -666,5 +688,9 @@ footer {
 
     .experiences-card {
         grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .footer-text {
+        font-size: var(--sz-tagline);
     }
 }
