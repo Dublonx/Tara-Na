@@ -694,6 +694,11 @@ footer {
         padding: 16px 16px;
     }
     
+    .right-grp input,
+    .right-grp textarea {
+        padding: 8px 8px;
+    }
+    
     .footer-text {
         font-size: var(--sz-tagline);
     }
