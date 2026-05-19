@@ -14,3 +14,22 @@ links.forEach(link => {
         nav.classList.remove("active");
     });
 });
+
+// back to top button
+const topCta = document.querySelector('#topCta');
+
+window.addEventListener("scroll", () => {
+    // if else
+    if (window.scrollY > 300) {
+        topCta.classList.add("active");
+    } else {
+        topCta.classList.remove("active");
+    }
+});
+
+topCta.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
