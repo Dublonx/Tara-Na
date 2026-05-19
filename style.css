@@ -690,6 +690,10 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
     
+    .e-card {
+        padding: 16px 16px;
+    }
+    
     .footer-text {
         font-size: var(--sz-tagline);
     }
